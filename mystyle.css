@@ -1,0 +1,166 @@
+body{
+	margin: 0;
+}
+.flex-container{
+	display: flex;
+	display: table;
+	padding: 8px;
+	background-color: #E6EAEE;
+	margin: 20px auto;
+	box-sizing: border-box;
+	justify-content: space-between;
+	-webkit-flex-grow: 5;
+
+}
+
+header{
+	padding: 1em;
+	background-color:#702F85;
+	text-align: center;
+}
+
+article{
+	-webkit-flex: 3 0 0;
+	-webkit-flex-flow: column;
+	-webkit-flex-flow: row;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+.middle{
+	display: -webkit-flex;
+	min-height: 500px;
+}
+
+.div1{
+	display: flex;
+	background-image:url("file:///Users/atranaseri/Desktop/Code-Review5/CR5/computer-1245714_1280.jpg");
+	z-index: -1;
+	height: 600px;
+	width: 100%;
+	filter: brightness(50%);
+}
+
+
+#h1{
+	font-family: : italic;
+	font-size: 90px;
+	color:white;
+	margin-left: 250px;
+	
+}
+/*section{
+	 -webkit-flex: 3 0 0;
+	
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-grow: 1;
+	height: 600px;
+	flex-direction: row;
+}*/
+#column1{
+	position: relative;
+	display:flex;
+	float: left;
+	margin-left:10px;
+	margin-top: 20px;
+	background-color: #D1C1D7;
+	border-radius:2%;
+	border: 1px solid grey;
+	box-shadow: 8px 8px 6px gray;
+   	font-size: 14px;
+   	flex-basis: 30px;
+   	float: left;
+   	flex-grow: 1;
+}
+
+
+#column2{
+	position: relative;
+	display:flex;
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+	background-color: #D1C1D7;
+	border-radius:2%;
+	border: 1px solid grey;
+	box-shadow: 10px 10px 6px gray;
+	font-size: 14px;
+	flex-basis: 40px;
+	flex-grow: 1;
+	
+	
+}
+
+#column3{
+	position: relative;
+	display:flex;
+	float: left;
+	margin-left:10px;
+	margin-top: 20px;
+	background-color: #D1C1D7;
+	border-radius:2%;
+	border: 1px solid grey;
+	box-shadow: 8px 8px 6px gray;
+   	font-size: 14px;
+   	flex-basis: 30px;
+   	float: left;
+   	flex-grow: 1;
+}
+
+#column4{
+	position: relative;
+	display:flex;
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+	background-color: #D1C1D7;
+	border-radius:2%;
+	border: 1px solid grey;
+	box-shadow: 10px 10px 6px gray;
+	font-size: 14px;
+	flex-basis: 40px;
+	flex-grow: 1;
+	
+	
+}
+.cloumn img{
+	border-radius: 20px;
+}
+.text1{
+	margin-left: 25px;
+
+}
+.btn{
+	position: relative;
+	border-color: black;
+	color: black;
+	background-color: #A2CAC4;
+	padding: 2px;
+	font-size: 15px;
+	cursor: pointer;
+	width: 80px;
+	font-weight: bold;
+	height: 20px;
+	border-radius: 6%;
+	padding-bottom: 1px;
+	text-align: center;
+	margin-right:40px;
+	margin-top:50px;
+
+}
+
+.number{
+	margin-left: 100px;
+	margin-bottom: 20px;
+	color: red;
+}
+.number img{
+	margin-right:40px;
+}
+
+footer{
+	padding: 1em;
+	background-color:white;
+	clear: left; 
+	text-align: center;
+}
